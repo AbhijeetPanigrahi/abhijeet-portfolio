@@ -15,8 +15,7 @@ const timeline = [
     title: "Internship",
     institution: "TRL Krosaki",
     period: "June 2024 - July 2024",
-    description:
-      "Gained hands-on experience in front-end development and worked on real-world projects using React and Next.js.",
+    description: "Gained hands-on experience in SAP and ABAP softwares.",
   },
 ];
 

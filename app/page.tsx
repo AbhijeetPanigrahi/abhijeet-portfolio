@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { TypeAnimation } from "react-type-animation"
-import Link from "next/link"
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -23,7 +23,14 @@ export default function Home() {
         transition={{ delay: 0.5, duration: 0.5 }}
       >
         <TypeAnimation
-          sequence={["Computer Science Student", 1000, "Front-end Developer", 1000, "UI/UX Enthusiast", 1000]}
+          sequence={[
+            "Computer Science Student",
+            1000,
+            "Front-end Developer",
+            1000,
+            "UI/UX Enthusiast",
+            1000,
+          ]}
           wrapper="span"
           speed={50}
           repeat={Number.POSITIVE_INFINITY}
@@ -36,7 +43,7 @@ export default function Home() {
         transition={{ delay: 1, duration: 0.5 }}
       >
         <Link
-          href="https://github.com/abhijeetpanigrahii"
+          href="https://github.com/AbhijeetPanigrahi"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary transition-colors"
@@ -44,7 +51,7 @@ export default function Home() {
           <Github size={24} />
         </Link>
         <Link
-          href="https://linkedin.com/in/abhijeetpanigrahii"
+          href="https://linkedin.com/in/abhijeet-panigrahi"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary transition-colors"
@@ -52,7 +59,7 @@ export default function Home() {
           <Linkedin size={24} />
         </Link>
         <Link
-          href="https://twitter.com/abhijeetpanigrahii"
+          href="https://x.com/A_Panigrahi23"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary transition-colors"
@@ -61,6 +68,5 @@ export default function Home() {
         </Link>
       </motion.div>
     </div>
-  )
+  );
 }
-

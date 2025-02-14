@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -19,18 +19,29 @@ export function Footer() {
           </p>
         </div>
         <div className="flex items-center space-x-4">
-          <Link href="https://github.com/abhijeetpanigrahii" target="_blank" rel="noreferrer">
+          <Link
+            href="https://github.com/AbhijeetPanigrahi"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </Link>
-          <Link href="https://linkedin.com/in/abhijeetpanigrahii" target="_blank" rel="noreferrer">
+          <Link
+            href="https://linkedin.com/in/abhijeet-panigrahi"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </Link>
-          <Link href="https://twitter.com/abhijeetpanigrahii" target="_blank" rel="noreferrer">
+          <Link
+            href="https://x.com/A_Panigrahi23"
+            target="_blank"
+            rel="noreferrer"
+          >
             Twitter
           </Link>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-

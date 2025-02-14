@@ -73,7 +73,7 @@ export default function Contact() {
           transition={{ delay: 0.4, duration: 0.5 }}
         >
           <Link
-            href="https://github.com/abhijeetpanigrahii"
+            href="https://github.com/AbhijeetPanigrahi"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors p-2"
@@ -81,7 +81,7 @@ export default function Contact() {
             <Github size={24} />
           </Link>
           <Link
-            href="https://leetcode.com/abhijeetpanigrahii"
+            href="https://leetcode.com/abhijeetpanigrahi912"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors p-2"
@@ -89,7 +89,7 @@ export default function Contact() {
             <MessageSquare size={24} />
           </Link>
           <Link
-            href="mailto:abhijeet@example.com"
+            href="mailto:abhijeetpanigrahi912@gmail.com"
             className="hover:text-primary transition-colors p-2"
           >
             <Mail size={24} />

@@ -138,7 +138,7 @@ export default function HomePage() {
             <h2 className="text-sm font-semibold mb-4">CONNECT</h2>
             <div className="grid grid-cols-3 gap-3">
               <a
-                href="https://github.com/abhijeetpanigrahii"
+                href="https://github.com/AbhijeetPanigrahi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center group p-2 rounded-lg hover:bg-white/50 dark:hover:bg-white/5 transition-colors"

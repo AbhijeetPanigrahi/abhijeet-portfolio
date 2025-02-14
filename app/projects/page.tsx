@@ -1,21 +1,29 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Github, ExternalLink } from "lucide-react"
-import Link from "next/link"
+import { motion } from "framer-motion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Github, ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 const projects = [
   {
     title: "ReBlogs",
-    description: "A modern blog platform built with React, Redux, and TailwindCSS, powered by Appwrite backend.",
-    github: "https://github.com/abhijeetpanigrahii/reblogs",
-    live: "https://reblogs.vercel.app",
+    description:
+      "A modern blog platform built with React, Redux, and TailwindCSS, powered by Appwrite backend.",
+    github: "https://github.com/AbhijeetPanigrahi/ReBlogs_MegaProject",
+    live: "https://reblogs-megaproject.vercel.app/",
     tech: ["React", "Redux", "TailwindCSS", "Appwrite"],
   },
   {
     title: "Alumni Network Association",
-    description: "An alumni engagement platform developed using React and Next.js for seamless networking.",
+    description:
+      "An alumni engagement platform developed using React and Next.js for seamless networking.",
     github: "https://github.com/abhijeetpanigrahii/alumni-network",
     live: "https://alumni-network.vercel.app",
     tech: ["React", "Next.js", "TailwindCSS"],
@@ -28,7 +36,7 @@ const projects = [
     live: "https://ecommerce-headphones.vercel.app",
     tech: ["Next.js", "Sanity", "Stripe", "TailwindCSS"],
   },
-]
+];
 
 export default function Projects() {
   return (
@@ -57,7 +65,10 @@ export default function Projects() {
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="px-2 py-1 bg-primary/10 text-primary rounded text-sm">
+                    <span
+                      key={tech}
+                      className="px-2 py-1 bg-primary/10 text-primary rounded text-sm"
+                    >
                       {tech}
                     </span>
                   ))}
@@ -88,6 +99,5 @@ export default function Projects() {
         ))}
       </div>
     </div>
-  )
+  );
 }
-
